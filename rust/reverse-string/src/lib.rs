@@ -9,4 +9,7 @@ pub fn reverse(input: &str) -> String {
         result.insert(0, c);
     }
     result
+
+    // idiomatic reverse
+    // input.chars().rev().collect()
 }
